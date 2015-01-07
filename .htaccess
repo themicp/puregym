@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^(|home|culture|place)/?$ index.php?page=$1 [L,QSA]
+RewriteRule ^services/(.*)$ index.php?page=services&sub=$1 [L,QSA]
