@@ -22,9 +22,13 @@ var initSlider = function( id, options ) {
     this.setupRootElement = function() {
         that.sliderRoot.empty();
         that.sliderRoot.append( $( '<ul></ul>' ) );
-        that.sliderRoot.append( $( '<ul class="thumbnail_list"></ul>' ) );
+
+        if ( that.imagesCount > 1 ) {
+            that.sliderRoot.append( $( '<ul class="thumbnail_list"></ul>' ) );
+            that.thumbnailUl = $( that.sliderRoot.children( 'ul' )[ 1 ] );
+        }
+
         that.sliderUl = $( that.sliderRoot.children( 'ul' )[ 0 ] );
-        that.thumbnailUl = $( that.sliderRoot.children( 'ul' )[ 1 ] );
         var imageUrl, thumbnailUrl, lastDot, bigImageUrl, imageAlt;
 
         for ( var i = 0; i < that.imagesCount; ++i ) {
@@ -35,25 +39,32 @@ var initSlider = function( id, options ) {
             bigImageUrl = imageUrl.substr( 0, lastDot ) + '_big' + imageUrl.substr( lastDot );
 
             that.sliderUl.append( $( '<li></li>' ).append( $( '<img>' ).attr( { 'src': imageUrl, 'alt': imageAlt } ) ) );
-            that.thumbnailUl.append( $( '<li></li>' ).append( $( '<img>' ).attr( 'src', thumbnailUrl ) ) );
 
             $( that.sliderUl.children( 'li' )[ i ] ).click( function() {
                 that.setModal( $( this ).index() );
             } );
 
-            $( that.thumbnailUl.children( 'li' )[ i ] ).click( function() {
-                that.currentImage = $( this ).index();
-                that.slide();
+            if ( that.imagesCount > 1 ) {
+                that.thumbnailUl.append( $( '<li></li>' ).append( $( '<img>' ).attr( 'src', thumbnailUrl ) ) );
 
-                that.resetSliderInterval();
-            } );
+                $( that.thumbnailUl.children( 'li' )[ i ] ).click( function() {
+                    that.currentImage = $( this ).index();
+                    that.slide();
+
+                    that.resetSliderInterval();
+                } );
+            }
         }
 
-        $( that.thumbnailUl.children( 'li' )[ 0 ] ).addClass( 'active' );
-        that.thumbnailUl.css( 'left', -1 * ( ( that.thumbnailWidth * that.imagesCount ) / 2 ) );
 
         that.sliderUl.append( $( '<div></div>' ).attr( 'class', 'eof' ) );
-        that.thumbnailUl.append( $( '<div></div>' ).attr( 'class', 'eof' ) );
+
+        if ( that.imagesCount > 1 ) {
+            $( that.thumbnailUl.children( 'li' )[ 0 ] ).addClass( 'active' );
+            that.thumbnailUl.css( 'left', -1 * ( ( that.thumbnailWidth * that.imagesCount ) / 2 ) );
+
+            that.thumbnailUl.append( $( '<div></div>' ).attr( 'class', 'eof' ) );
+        }
 
         that.resetSliderInterval();
     }();
@@ -64,8 +75,10 @@ var initSlider = function( id, options ) {
     this.sliderUl.width( this.sliderElement[ 0 ].offsetWidth * this.imagesCount );
 
     this.slide = function() {
-        this.thumbnailUl.children( 'li' ).removeClass( 'active' );
-        $( this.thumbnailUl.children( 'li' )[ this.currentImage ] ).addClass( 'active' );
+        if ( this.imagesCount > 1 ) {
+            this.thumbnailUl.children( 'li' ).removeClass( 'active' );
+            $( this.thumbnailUl.children( 'li' )[ this.currentImage ] ).addClass( 'active' );
+        }
 
         $( this.sliderUl[ 0 ] ).animate( {
             left: -( this.currentImage * this.sliderRoot[ 0 ].offsetWidth )
