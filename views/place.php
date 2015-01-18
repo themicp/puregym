@@ -28,10 +28,6 @@
                         alt: 'Lobby'
                     },
                     {
-                        src: '/images/place/6.jpg',
-                        alt: 'Training room'
-                    },
-                    {
                         src: '/images/place/1.jpg',
                         alt: 'Bathroom'
                     },
