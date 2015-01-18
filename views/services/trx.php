@@ -18,15 +18,11 @@
             var slider = new initSlider( 'slider', {
                 images: [ 
                     {
-                        src: '/images/trx/1.jpg',
-                        alt: 'TRX Training'
-                    },
-                    {
                         src: '/images/trx/2.jpg',
                         alt: 'TRX Training'
                     },
                     {
-                        src: '/images/trx/3.jpg',
+                        src: '/images/trx/4.jpg',
                         alt: 'TRX Training'
                     }
                 ],

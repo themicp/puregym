@@ -20,28 +20,36 @@
             var slider = new initSlider( 'slider', {
                 images: [ 
                     {
-                        src: '/images/place/1.jpg',
-                        alt: 'Bathroom'
-                    },
-                    {
                         src: '/images/place/2.jpg',
                         alt: 'Lobby'
-                    },
-                    {
-                        src: '/images/place/3.jpg',
-                        alt: 'Second lobby'
                     },
                     {
                         src: '/images/place/4.jpg',
                         alt: 'Lobby'
                     },
                     {
+                        src: '/images/place/6.jpg',
+                        alt: 'Training room'
+                    },
+                    {
+                        src: '/images/place/1.jpg',
+                        alt: 'Bathroom'
+                    },
+                    {
+                        src: '/images/place/3.jpg',
+                        alt: 'Second lobby'
+                    },
+                    {
                         src: '/images/place/5.jpg',
                         alt: 'Lounge'
                     },
                     {
-                        src: '/images/place/6.jpg',
-                        alt: 'Training room'
+                        src: '/images/place/7.jpg',
+                        alt: 'Restrooms'
+                    },
+                    {
+                        src: '/images/place/8.jpg',
+                        alt: 'Lounge'
                     }
                 ],
                 timeout: 4000,
