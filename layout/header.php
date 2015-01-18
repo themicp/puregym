@@ -48,6 +48,7 @@
                                 <li class='<?=$sub_page == 'powerplate' ? 'active' : '';?> first'><a href='/services/powerplate'>Power Plate</a></li>
                                 <li class='<?=$sub_page == 'kinesis' ? 'active' : '';?>'><a href='/services/kinesis'>Kinesis</a></li>
                                 <li class='<?=$sub_page == 'trx' ? 'active' : '';?>'><a href='/services/trx'>TRX Training</a></li>
+                                <li class='<?=$sub_page == 'pilates' ? 'active' : '';?>'><a href='/services/pilates'>Pilates</a></li>
                                 <li class='<?=$sub_page == 'programs' ? 'active' : '';?> last'><a href='/services/programs'>Προγράμματα</a></li>
                             </ul>
                         </li>
