@@ -1,0 +1,140 @@
+.App {
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+body {
+    background: #aaa;
+    background-image: url('http://puregym.gr/images/gym.jpg');
+    background-size: cover;
+}
+
+.navbar-logo {
+    height: 20px;
+    width: auto;
+}
+
+.top-navbar {
+    border-radius: 0px;
+    border-width: 0px 0px 1px 0px;
+    border-color: #d0b580;
+    background: #fff;
+}
+
+.nav-items .active {
+    font-weight: bold;
+}
+
+.nav-items span {
+    color: #d0b580;
+}
+
+.about-container {
+    background-color: rgba(255,255,255,0.6);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#4CFFFFFF, endColorstr=#4CFFFFFF)";
+    width: 85%;
+    margin: auto;
+    padding: 15px;
+}
+
+.about-panel, .info-panel {
+    background: transparent;
+    border-style: none;
+    box-shadow: none;
+    border-radius: 0px;
+    margin: auto;
+}
+
+.about-panel .panel-heading {
+    background: rgba(0,0,0,0.6);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+    border-radius: 0px;
+    border-style: none;
+    color: #d0b580;
+    font-weight: bold;
+}
+
+.info-panel .panel-heading {
+    background: transparent;
+    border-width: 0px 0px 1px 0px;
+    border-color: #888;
+    border-radius: 0px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.info-panel iframe {
+    overflow: hidden;
+    border: none;
+}
+
+.facebook-widget {
+    text-align: center;
+}
+
+.info-list > li {
+    background: transparent;
+    border: none;
+}
+
+.outside-pic {
+    text-align: center;
+}
+
+.outside-pic img {
+    width: 100%;
+    height: auto;
+    max-width: 422px;
+}
+
+footer {
+    height: 50px;
+    background:#000;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.slide-img {
+    max-width: 100%;
+    max-height: 350px;
+    margin: auto;
+}
+
+.place-slide .slide-img {
+    max-height: 500px;
+}
+
+.slide-div {
+    padding: 10px;
+}
+
+.pics-slide {
+    margin-bottom: 20px;
+}
+
+.note {
+    clear: both;
+    background: rgba(208,181,128,0.4);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#66D0B580, endColorstr=#66D0B580)";
+    text-align: center;
+    margin: 10px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
