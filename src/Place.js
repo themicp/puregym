@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Panel, ListGroup, ListGroupItem } from 'react-bootstrap';
+import { Panel } from 'react-bootstrap';
 import Slider from 'react-slick';
 
 class Place extends Component {
@@ -14,7 +14,7 @@ class Place extends Component {
         return (
             <div className='container about-container'>
                 <div className='row'>
-                    <Panel header='_Ο ΧΩΡΟΣ' className='about-panel col-md-12 col-lg-12'>
+                    <Panel header='_Ο ΧΩΡΟΣ' className='place-panel about-panel col-md-12 col-lg-12'>
                         <p>To <strong>Pure</strong> είναι έτοιμο να σας υποδεχτεί στις νέες υπερσύγχρονες εγκαταστάσεις του στην καρδιά της Γλυφάδας, σε δυο διαφορετικά επίπεδα που περιλαμβάνουν: <strong>Plate Personal Training, Kinesis Studios, πολυτελές Relax Room και σύγχρονες αίθουσες ομαδικών προγραμμάτων.</strong></p>
 
                         <p>Παράλληλα, στο <strong>Pure</strong> σας περιμένουν πολυτελή και άνετα αποδυτήρια, όπου θα βρείτε είδη προσωπικής υγιεινής για να μπορείτε να απολαύσετε ένα χαλαρωτικό ντους μετά από την κάθε επίσκεψη σας.</p>

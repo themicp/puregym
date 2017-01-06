@@ -17,6 +17,10 @@
   font-size: large;
 }
 
+html, body{
+    min-height: 100%;
+}
+
 body {
     background: #aaa;
     background-image: url('http://puregym.gr/images/gym.jpg');
@@ -24,7 +28,9 @@ body {
 }
 
 .navbar-logo {
-    height: 20px;
+    height: 36px;
+    position: relative;
+    top: -8px;
     width: auto;
 }
 
@@ -39,14 +45,31 @@ body {
     font-weight: bold;
 }
 
-.nav-items span {
+.nav-items span,
+.navbar-default .nav-items > li > a,
+.navbar-default .nav-items > li > a:active,
+.navbar-default .nav-items > li > a:focus,
+.navbar-default .nav-items > li > a:hover {
+    color: #d0b580;
+}
+
+.nav-items .dropdown-menu li {
+    padding: 2px;
+    border-bottom: 1px solid #eee;
+}
+
+.nav-items .dropdown-menu li.last {
+    border: none;
+}
+
+.nav-items a:hover, .nav-items a:focus {
+    text-decoration: none;
     color: #d0b580;
 }
 
 .about-container {
     background-color: rgba(255,255,255,0.6);
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#4CFFFFFF, endColorstr=#4CFFFFFF)";
-    width: 85%;
     margin: auto;
     padding: 15px;
 }
@@ -91,6 +114,34 @@ body {
     border: none;
 }
 
+footer .info-list {
+	margin-top: 20px;
+    width: 520px;
+}
+
+footer .info-list .list-group-item {
+	float: left;
+	width: 260px;
+    height: 80px;
+}
+
+footer .info-list .list-group-item a {
+    color: #000;
+    text-decoration: underline;
+}
+
+footer .info-list .list-group-item .list-group-item-text {
+	font-size: 13px;
+}
+
+footer .info-list .list-group-item .list-group-item-text {
+	font-size: 13px;
+}
+
+footer .facebook-widget {
+	margin-top: 23px;
+}
+
 .outside-pic {
     text-align: center;
 }
@@ -102,9 +153,9 @@ body {
 }
 
 footer {
-    height: 50px;
-    background:#000;
+    height: 200px;
     width: 100%;
+	background: rgba(208,181,128,0.6);
     margin-top: 20px;
 }
 
@@ -112,6 +163,7 @@ footer {
     max-width: 100%;
     max-height: 350px;
     margin: auto;
+    position: relative;
 }
 
 .place-slide .slide-img {
@@ -137,4 +189,52 @@ footer {
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.power-plate-panel .panel-heading {
+    background-image: url(/images/power_plate_logo.png);
+    background-repeat: no-repeat;
+    background-size: auto 70%;
+    background-position: center;
+    height: 40px;
+}
+
+.power-plate-panel ul li,
+.trx-panel ul li,
+.pilates-panel ul li,
+.kinesis-panel ul li {
+    font-weight: bold;
+}
+
+.kinesis-panel .panel-heading {
+    background-image: url(/images/technogym.png);
+    background-repeat: no-repeat;
+    background-size: auto 70%;
+    background-position: right;
+}
+
+.trx-panel .panel-heading {
+    background-image: url(/images/trx_logo.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 70%;
+    background-position: right;
+}
+
+.home-panel .panel-heading, .place-panel .panel-heading {
+    background-image: url(/images/p.png);
+    background-repeat: no-repeat;
+    background-size: auto 70%;
+    background-position: right;
+}
+
+.programs-container .info-panel ul li {
+	font-weight: bold;
+}
+
+#cross-training {
+	margin-top: 20px;
+}
+
+.home-slide {
+    margin-bottom: 50px;
 }

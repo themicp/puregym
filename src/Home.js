@@ -8,12 +8,13 @@ class Home extends Component {
             autoplay: true,
             autoplaySpeed: 5000,
             slidesToShow: 1,
+            dots: true,
         };
 
         return (
             <div className='container about-container'>
                 <div className='row'>
-                    <Panel header='_ΤΟ ΓΥΜΝΑΣΤΗΡΙΟ' className='about-panel col-md-12 col-lg-12'>
+                    <Panel header='_ΤΟ ΓΥΜΝΑΣΤΗΡΙΟ' className='home-panel about-panel col-md-12 col-lg-12'>
                         <Slider {...sliderSettings} className='home-slide pics-slide'>
                             <div className='slide-div'><img className='slide-img' src='images/11.jpg' role='presentation' /></div>
                             <div className='slide-div'><img className='slide-img' src='images/12.jpg' role='presentation' /></div>
@@ -42,7 +43,7 @@ class Home extends Component {
                         </div>
                     </Panel>
 
-                    <div className='alert note' role='alert'>Ανακαλύψτε το <strong>Pure</strong>: ανακαλύψτε ένα νέο τρόπο ζωής και ζήστε με διαφορά ενα καλύτερο αύριο.</div>
+                    <div className='alert note' role='alert'>Το πρώτο personal αξιολόγησης φυσικής κατάστασης <strong>εντελώς δωρεάν</strong> τώρα στο <strong>Pure</strong>.</div>
                 </div>
             </div>
         );
