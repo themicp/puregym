@@ -116,12 +116,11 @@ body {
 
 footer .info-list {
 	margin-top: 20px;
-    width: 520px;
+    width: 100%;
 }
 
 footer .info-list .list-group-item {
 	float: left;
-	width: 260px;
     height: 80px;
 }
 
@@ -138,8 +137,13 @@ footer .info-list .list-group-item .list-group-item-text {
 	font-size: 13px;
 }
 
-footer .facebook-widget {
+footer .container > div {
+    float: left;
+}
+
+footer .container > div.facebook-widget {
 	margin-top: 23px;
+    float: right;
 }
 
 .outside-pic {
@@ -157,6 +161,16 @@ footer {
     width: 100%;
 	background: rgba(208,181,128,0.6);
     margin-top: 20px;
+}
+@media screen and (max-width: 991px) {
+    footer { 
+        height: 356px;
+    }
+}
+@media screen and (max-width: 767px) {
+    footer {
+        height: 514px;
+    }
 }
 
 .slide-img {

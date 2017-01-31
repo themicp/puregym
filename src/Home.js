@@ -10,6 +10,7 @@ class Home extends Component {
             slidesToShow: 1,
             dots: true,
         };
+        const facebook_width = window.innerWidth < 500 ? 250 : 340;
 
         return (
             <div className='container about-container'>
@@ -39,7 +40,7 @@ class Home extends Component {
                             </ListGroup>
                         </div>
                         <div className='col-xs-12 col-sm-12 col-md-6 col-lg-5 facebook-widget'>
-                            <iframe src='https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FPure-Gym-%CE%93%CE%BB%CF%85%CF%86%CE%AC%CE%B4%CE%B1-741204552621019%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1033197230108095' width='340' height='500'  scrolling='no' frameBorder='0' allowTransparency='true'></iframe>
+                            <iframe src={'https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FPure-Gym-%CE%93%CE%BB%CF%85%CF%86%CE%AC%CE%B4%CE%B1-741204552621019%2F&tabs=timeline&width=' + facebook_width + '&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1033197230108095'} width={facebook_width} height='500'  scrolling='no' frameBorder='0' allowTransparency='true'></iframe>
                         </div>
                     </Panel>
 
