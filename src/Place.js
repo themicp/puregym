@@ -29,6 +29,7 @@ class Place extends Component {
                             <div className='slide-div'><img className='slide-img' src='images/12.jpg' role='presentation' /></div>
                             <div className='slide-div'><img className='slide-img' src='images/13.jpg' role='presentation' /></div>
                             <div className='slide-div'><img className='slide-img' src='images/14.jpg' role='presentation' /></div>
+                            <div className='slide-div'><img className='slide-img' src='images/pilates/4.jpg' role='presentation' /></div>
                             <div className='slide-div'><img className='slide-img' src='images/4.jpg' role='presentation' /></div>
                             <div className='slide-div'><img className='slide-img' src='images/1.jpg' role='presentation' /></div>
                             <div className='slide-div'><img className='slide-img' src='images/7.jpg' role='presentation' /></div>

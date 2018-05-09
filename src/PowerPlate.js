@@ -14,7 +14,7 @@ class PowerPlate extends Component {
         return (
             <div className='container about-container'>
                 <div className='row'>
-                    <Panel header=' ' className='power-plate-panel about-panel col-md-6 col-lg-6'>
+                    <Panel header=' ' className='power-plate-panel about-panel col-xs-12 col-sm-12 col-md-6 col-lg-6'>
                         <p>Το <strong>Power Plate</strong> έχει φέρει την επανάσταση στους τομείς της ευεξίας, της ομορφιάς και της αντιγήρανσης. Το μυστικό; Ταχύτητα και αποτελεσματικότητα, με το πάτημα μόνο ενός κουμπιού. Έτσι ενεργοποιείται η λειτουργία τρισδιάστατης δόνησης της πλατφόρμας <strong>Power Plate</strong>.</p>
 
                         <p>Το δεύτερο και σημαντικότερο μυστικό της επιτυχίας, είναι το γνωστικό επίπεδο του <strong>Personal Trainer</strong> που σας έχει αναλάβει.<br /> 
@@ -31,7 +31,7 @@ class PowerPlate extends Component {
 
                     </Panel>
 
-                    <Panel className='info-panel col-xs-6 col-sm-6 col-md-6 col-lg-6'>
+                    <Panel className='info-panel col-xs-12 col-sm-12 col-md-6 col-lg-6'>
                         <Slider {...sliderSettings} className='place-slide pics-slide'>
                             <div className='slide-div'><img className='slide-img' src='images/power_plate/1.jpg' role='presentation' /></div>
                             <div className='slide-div'><img className='slide-img' src='images/power_plate/4.jpg' role='presentation' /></div>
