@@ -33,10 +33,10 @@ class Kinesis extends Component {
 
                     <Panel className='info-panel col-xs-12 col-sm-12 col-md-6 col-lg-6'>
                         <Slider {...sliderSettings} className='place-slide pics-slide'>
-                            <div className='slide-div'><img className='slide-img' src='images/kinesis/1.jpg' role='presentation' /></div>
-                            <div className='slide-div'><img className='slide-img' src='images/kinesis/2.jpg' role='presentation' /></div>
-                            <div className='slide-div'><img className='slide-img' src='images/kinesis/3.jpg' role='presentation' /></div>
-                            <div className='slide-div'><img className='slide-img' src='images/kinesis/4.jpg' role='presentation' /></div>
+                            <div className='slide-div'><img className='slide-img' src='/static/images/kinesis/1.jpg' role='presentation' /></div>
+                            <div className='slide-div'><img className='slide-img' src='/static/images/kinesis/2.jpg' role='presentation' /></div>
+                            <div className='slide-div'><img className='slide-img' src='/static/images/kinesis/3.jpg' role='presentation' /></div>
+                            <div className='slide-div'><img className='slide-img' src='/static/images/kinesis/4.jpg' role='presentation' /></div>
                         </Slider>
                     </Panel>
 

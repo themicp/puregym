@@ -17,13 +17,13 @@ class Home extends Component {
                 <div className='row'>
                     <Panel header='_ΤΟ ΓΥΜΝΑΣΤΗΡΙΟ' className='home-panel about-panel col-md-12 col-lg-12'>
                         <Slider {...sliderSettings} className='home-slide pics-slide'>
-                            <div className='slide-div'><img className='slide-img' src='images/11.jpg' role='presentation' /></div>
-                            <div className='slide-div'><img className='slide-img' src='images/panorama_floor.jpg' role='presentation' /></div>
-                            <div className='slide-div'><img className='slide-img' src='images/12.jpg' role='presentation' /></div>
-                            <div className='slide-div'><img className='slide-img' src='images/13.jpg' role='presentation' /></div>
-                            <div className='slide-div'><img className='slide-img' src='images/14.jpg' role='presentation' /></div>
-                            <div className='slide-div'><img className='slide-img' src='images/15.jpg' role='presentation' /></div>
-                            <div className='slide-div'><img className='slide-img' src='images/16.jpg' role='presentation' /></div>
+                            <div className='slide-div'><img className='slide-img' src='/static/images/11.jpg' role='presentation' /></div>
+                            <div className='slide-div'><img className='slide-img' src='/static/images/panorama_floor.jpg' role='presentation' /></div>
+                            <div className='slide-div'><img className='slide-img' src='/static/images/12.jpg' role='presentation' /></div>
+                            <div className='slide-div'><img className='slide-img' src='/static/images/13.jpg' role='presentation' /></div>
+                            <div className='slide-div'><img className='slide-img' src='/static/images/14.jpg' role='presentation' /></div>
+                            <div className='slide-div'><img className='slide-img' src='/static/images/15.jpg' role='presentation' /></div>
+                            <div className='slide-div'><img className='slide-img' src='/static/images/16.jpg' role='presentation' /></div>
                         </Slider>
                         <p>Τεχνολογία και τεχνογνωσία. Υψηλή αισθητική και lifestyle υπηρεσίες που παρουσιάζονται για πρώτη φορά. Ολοκληρωμένα προγράμματα προσωπικής εκγύμνασης βασισμένα στις ανάγκες και τους στόχους του κάθε μέλους.</p>
                         <p>Σε ένα χώρο 250τμ κορυφαίου κατασκευαστικού σχεδιασμού, συγκεντρώσαμε όλα τα τελευταίας τεχνολογίας συστήματα εκγύμνασης που, στα χέρια των πτυχιούχων γυμναστών μας, μετατρέπουν τους στόχους και τα όνειρα σας σε πραγματικότητα.</p>

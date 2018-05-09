@@ -33,8 +33,8 @@ class PowerPlate extends Component {
 
                     <Panel className='info-panel col-xs-12 col-sm-12 col-md-6 col-lg-6'>
                         <Slider {...sliderSettings} className='place-slide pics-slide'>
-                            <div className='slide-div'><img className='slide-img' src='images/power_plate/1.jpg' role='presentation' /></div>
-                            <div className='slide-div'><img className='slide-img' src='images/power_plate/4.jpg' role='presentation' /></div>
+                            <div className='slide-div'><img className='slide-img' src='/static/images/power_plate/1.jpg' role='presentation' /></div>
+                            <div className='slide-div'><img className='slide-img' src='/static/images/power_plate/4.jpg' role='presentation' /></div>
                         </Slider>
                     </Panel>
 

@@ -23,7 +23,7 @@ html, body{
 
 body {
     background: #aaa;
-    background-image: url('http://puregym.gr/images/gym.jpg');
+    background-image: url('/static/images/gym.jpg');
     background-size: cover;
 }
 
@@ -206,7 +206,7 @@ footer {
 }
 
 .power-plate-panel .panel-heading {
-    background-image: url(/images/power_plate_logo.png);
+    background-image: url(/static/images/power_plate_logo.png);
     background-repeat: no-repeat;
     background-size: auto 70%;
     background-position: center;
@@ -221,21 +221,21 @@ footer {
 }
 
 .kinesis-panel .panel-heading {
-    background-image: url(/images/technogym.png);
+    background-image: url(/static/images/technogym.png);
     background-repeat: no-repeat;
     background-size: auto 70%;
     background-position: right;
 }
 
 .trx-panel .panel-heading {
-    background-image: url(/images/trx_logo.jpg);
+    background-image: url(/static/images/trx_logo.jpg);
     background-repeat: no-repeat;
     background-size: auto 70%;
     background-position: right;
 }
 
 .home-panel .panel-heading, .place-panel .panel-heading {
-    background-image: url(/images/p.png);
+    background-image: url(/static/images/p.png);
     background-repeat: no-repeat;
     background-size: auto 70%;
     background-position: right;

@@ -24,17 +24,17 @@ class Place extends Component {
 
                     <Panel header='Φωτογραφίες' className='info-panel col-xs-12 col-sm-12 col-md-12 col-lg-12'>
                         <Slider {...sliderSettings} className='place-slide pics-slide'>
-                            <div className='slide-div'><img className='slide-img' src='images/2.jpg' role='presentation' /></div>
-                            <div className='slide-div'><img className='slide-img' src='images/11.jpg' role='presentation' /></div>
-                            <div className='slide-div'><img className='slide-img' src='images/12.jpg' role='presentation' /></div>
-                            <div className='slide-div'><img className='slide-img' src='images/13.jpg' role='presentation' /></div>
-                            <div className='slide-div'><img className='slide-img' src='images/14.jpg' role='presentation' /></div>
-                            <div className='slide-div'><img className='slide-img' src='images/pilates/4.jpg' role='presentation' /></div>
-                            <div className='slide-div'><img className='slide-img' src='images/4.jpg' role='presentation' /></div>
-                            <div className='slide-div'><img className='slide-img' src='images/1.jpg' role='presentation' /></div>
-                            <div className='slide-div'><img className='slide-img' src='images/7.jpg' role='presentation' /></div>
-                            <div className='slide-div'><img className='slide-img' src='images/15.jpg' role='presentation' /></div>
-                            <div className='slide-div'><img className='slide-img' src='images/16.jpg' role='presentation' /></div>
+                            <div className='slide-div'><img className='slide-img' src='/static/images/2.jpg' role='presentation' /></div>
+                            <div className='slide-div'><img className='slide-img' src='/static/images/11.jpg' role='presentation' /></div>
+                            <div className='slide-div'><img className='slide-img' src='/static/images/12.jpg' role='presentation' /></div>
+                            <div className='slide-div'><img className='slide-img' src='/static/images/13.jpg' role='presentation' /></div>
+                            <div className='slide-div'><img className='slide-img' src='/static/images/14.jpg' role='presentation' /></div>
+                            <div className='slide-div'><img className='slide-img' src='/static/images/pilates/4.jpg' role='presentation' /></div>
+                            <div className='slide-div'><img className='slide-img' src='/static/images/4.jpg' role='presentation' /></div>
+                            <div className='slide-div'><img className='slide-img' src='/static/images/1.jpg' role='presentation' /></div>
+                            <div className='slide-div'><img className='slide-img' src='/static/images/7.jpg' role='presentation' /></div>
+                            <div className='slide-div'><img className='slide-img' src='/static/images/15.jpg' role='presentation' /></div>
+                            <div className='slide-div'><img className='slide-img' src='/static/images/16.jpg' role='presentation' /></div>
                         </Slider>
                     </Panel>
 

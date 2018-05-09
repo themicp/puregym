@@ -32,10 +32,10 @@ class Pilates extends Component {
 
                     <Panel className='info-panel col-xs-12 col-sm-12 col-md-6 col-lg-6'>
                         <Slider {...sliderSettings} className='place-slide pics-slide'>
-                            <div className='slide-div'><img className='slide-img' src='images/pilates/1.jpg' role='presentation' /></div>
-                            <div className='slide-div'><img className='slide-img' src='images/pilates/4.jpg' role='presentation' /></div>
-                            <div className='slide-div'><img className='slide-img' src='images/pilates/2.jpg' role='presentation' /></div>
-                            <div className='slide-div'><img className='slide-img' src='images/pilates/3.jpg' role='presentation' /></div>
+                            <div className='slide-div'><img className='slide-img' src='/static/images/pilates/1.jpg' role='presentation' /></div>
+                            <div className='slide-div'><img className='slide-img' src='/static/images/pilates/4.jpg' role='presentation' /></div>
+                            <div className='slide-div'><img className='slide-img' src='/static/images/pilates/2.jpg' role='presentation' /></div>
+                            <div className='slide-div'><img className='slide-img' src='/static/images/pilates/3.jpg' role='presentation' /></div>
                         </Slider>
                     </Panel>
                 </div>

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 import { Link } from 'react-router';
-import './App.css';
 import Footer from './Footer';
 
 class App extends Component {
@@ -65,7 +64,7 @@ class App extends Component {
                         <Navbar.Brand>
                             <Link to='/'>
                                 <img
-                                    src='http://puregym.gr/images/logo.png'
+                                    src='/static/images/logo.png'
                                     alt='Puregym'
                                     className='navbar-logo'
                                 />
