@@ -14,7 +14,7 @@ class Kinesis extends Component {
         return (
             <div className='container about-container'>
                 <div className='row'>
-                    <Panel header='KINESIS' className='kinesis-panel about-panel col-md-6 col-lg-6'>
+                    <Panel header='KINESIS' className='kinesis-panel about-panel col-xs-12 col-sm-12 col-md-6 col-lg-6'>
                         <p>Η επιτομή στην λειτουργική προπόνηση, τρισδιάστατη αντίσταση σε όλες τις ασκήσεις. Αυτό είναι το <strong>Kinesis</strong>, ένας εξοπλισμός που σας γυρίζει στην προέλευση της ανθρώπινης κίνησης. Με το <strong>Kinesis</strong> ζήστε την εμπειρία της απόλυτης ελευθερίας κινήσεων και αναπτύξτε τις τέσσερις θεμελιώδεις φυσικές ικανότητες: <strong>αντοχή, ισορροπία, δύναμη και ευελιξία</strong>.</p>
 
                         <p>Το <strong>Kinesis</strong> παρέχει μια μοναδική προπονητική εμπειρία που αποκαθιστά τη σωστή ισορροπία μεταξύ του μυαλού και σώματος και έτσι σας βοηθά να βελτιώσετε την ποιότητα της ζωής σας.</p>
@@ -31,7 +31,7 @@ class Kinesis extends Component {
 
                     </Panel>
 
-                    <Panel className='info-panel col-xs-6 col-sm-6 col-md-6 col-lg-6'>
+                    <Panel className='info-panel col-xs-12 col-sm-12 col-md-6 col-lg-6'>
                         <Slider {...sliderSettings} className='place-slide pics-slide'>
                             <div className='slide-div'><img className='slide-img' src='images/kinesis/1.jpg' role='presentation' /></div>
                             <div className='slide-div'><img className='slide-img' src='images/kinesis/2.jpg' role='presentation' /></div>

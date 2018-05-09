@@ -14,7 +14,7 @@ class Pilates extends Component {
         return (
             <div className='container about-container'>
                 <div className='row'>
-                    <Panel header='Pilates' className='pilates-panel about-panel col-md-6 col-lg-6'>
+                    <Panel header='Pilates' className='pilates-panel about-panel col-xs-12 col-sm-12 col-md-6 col-lg-6'>
                         <p>Το <strong>Pilates</strong> μας βοηθάει να συνειδητοποιήσουμε πώς πρέπει να στηρίξουμε το σώμα μας και συγχρόνως μας δυναμώνει μυϊκά. Με αυτό τον τρόπο, ελευθερώνονται οι αρθρώσεις, τα άκρα, η σπονδυλική στήλη. Οι μύες επιμηκύνονται, το σώμα μακραίνει και φαίνεται πιο αδύνατο και σφιχτό. Και, πράγματι, όλα αυτά συμβαίνουν σχετικά γρήγορα.</p>
 
                         <p>Με το <strong>Pilates</strong> μπορείτε να επιτύχετε:</p>
@@ -30,9 +30,10 @@ class Pilates extends Component {
 
                     </Panel>
 
-                    <Panel className='info-panel col-xs-6 col-sm-6 col-md-6 col-lg-6'>
+                    <Panel className='info-panel col-xs-12 col-sm-12 col-md-6 col-lg-6'>
                         <Slider {...sliderSettings} className='place-slide pics-slide'>
                             <div className='slide-div'><img className='slide-img' src='images/pilates/1.jpg' role='presentation' /></div>
+                            <div className='slide-div'><img className='slide-img' src='images/pilates/4.jpg' role='presentation' /></div>
                             <div className='slide-div'><img className='slide-img' src='images/pilates/2.jpg' role='presentation' /></div>
                             <div className='slide-div'><img className='slide-img' src='images/pilates/3.jpg' role='presentation' /></div>
                         </Slider>

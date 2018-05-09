@@ -18,6 +18,7 @@ class Home extends Component {
                     <Panel header='_ΤΟ ΓΥΜΝΑΣΤΗΡΙΟ' className='home-panel about-panel col-md-12 col-lg-12'>
                         <Slider {...sliderSettings} className='home-slide pics-slide'>
                             <div className='slide-div'><img className='slide-img' src='images/11.jpg' role='presentation' /></div>
+                            <div className='slide-div'><img className='slide-img' src='images/panorama_floor.jpg' role='presentation' /></div>
                             <div className='slide-div'><img className='slide-img' src='images/12.jpg' role='presentation' /></div>
                             <div className='slide-div'><img className='slide-img' src='images/13.jpg' role='presentation' /></div>
                             <div className='slide-div'><img className='slide-img' src='images/14.jpg' role='presentation' /></div>
